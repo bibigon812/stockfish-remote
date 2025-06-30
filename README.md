@@ -2,15 +2,17 @@
 
 ## server
 
-Listens a tcp socket, runs stockfish and connect them.
+Listens a tcp socket, runs stockfish and connects them.
 
 ```shell
 python server.py -s <stockfish-binary>
 ```
 
+Stockfish can be downloaded from [github](https://github.com/official-stockfish/Stockfish/releases)
+
 ## client
 
-Has to been compiled with `pyinstaller`. Change server hostname in `client.ini`.
+Has to been compiled with `pyinstaller`. Change a server hostname in `client.ini`.
 
 ```shell
 python # will be installed from store
