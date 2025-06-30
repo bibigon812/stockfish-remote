@@ -16,6 +16,6 @@ Has to been compiled with `pyinstaller`. Change server hostname in `client.ini`.
 python # will be installed from store
 pip install pyinstaller
 # add packages script dir to path
-pyinstall -F client.py
+pyinstaller -F client.py
 client.exe
 ```
